@@ -253,6 +253,6 @@
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "https://localhost:16000/"
+    "BaseUrl": "https://localhost:9081/"
   }
 }

@@ -6,7 +6,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "16001"
+          "Port": "9082"
         }
       ],
       "UpstreamPathTemplate": "/auth-api/auth"
@@ -17,7 +17,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "16001"
+          "Port": "9082"
         }
       ],
       "UpstreamPathTemplate": "/auth-api/mobile-auth"
@@ -29,7 +29,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "16001"
+          "Port": "9082"
         }
       ],
       "UpstreamPathTemplate": "/user-api/forgetPassword"
@@ -40,7 +40,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "16001"
+          "Port": "9082"
         }
       ],
       "UpstreamPathTemplate": "/auth-api/saveOTP"
@@ -51,7 +51,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "16001"
+          "Port": "9082"
         }
       ],
       "UpstreamPathTemplate": "/auth-api/getOTP"
@@ -62,7 +62,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "16001"
+          "Port": "9082"
         }
       ],
       "UpstreamPathTemplate": "/auth-api/saveUser"
@@ -73,7 +73,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "16002"
+          "Port": "9083"
         }
       ],
       "UpstreamPathTemplate": "/core-api/saveContactUS"
@@ -84,7 +84,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "16001"
+          "Port": "9082"
         }
       ],
       "UpstreamPathTemplate": "/auth-api/logo"
@@ -92,28 +92,32 @@
     {
       "DownstreamPathTemplate": "/User/LoginGoogleAuth",
       "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [{
+      "DownstreamHostAndPorts": [
+        {
           "Host": "localhost",
-          "Port": "16001"
-      }],
+          "Port": "9082"
+        }
+      ],
       "UpstreamPathTemplate": "/auth-api/googleAuth"
-  },
-  {
+    },
+    {
       "DownstreamPathTemplate": "/User/GoogleSaveUser",
       "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [{
+      "DownstreamHostAndPorts": [
+        {
           "Host": "localhost",
-          "Port": "16001"
-      }],
+          "Port": "9082"
+        }
+      ],
       "UpstreamPathTemplate": "/auth-api/googleSaveUser"
-  },
+    },
     {
       "DownstreamPathTemplate": "/User/genToken",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "16001"
+          "Port": "9082"
         }
       ],
       "UpstreamPathTemplate": "/auth-api/generateToken"
@@ -124,18 +128,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "8064"
-        }
-      ],
-      "UpstreamPathTemplate": "/recruitment-api/{catchAll}"
-    },
-    {
-      "DownstreamPathTemplate": "/{catchAll}",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": "16001"
+          "Port": "9082"
         }
       ],
       "UpstreamPathTemplate": "/user-api/{catchAll}"
@@ -146,7 +139,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "16002"
+          "Port": "9083"
         }
       ],
       "UpstreamPathTemplate": "/job-api/{catchAll}"
@@ -157,87 +150,10 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "13505"
-        }
-      ],
-      "UpstreamPathTemplate": "/addmission-api/{catchAll}"
-    },
-    {
-      "DownstreamPathTemplate": "/{catchAll}",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": "16002"
+          "Port": "9083"
         }
       ],
       "UpstreamPathTemplate": "/school-api/{catchAll}"
-    },
-    {
-      "DownstreamPathTemplate": "/{catchAll}",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": "13505"
-        }
-      ],
-      "UpstreamPathTemplate": "/admission-api/{catchAll}"
-    },
-    {
-      "DownstreamPathTemplate": "/{catchAll}",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": "13506"
-        }
-      ],
-      "UpstreamPathTemplate": "/gl-api/{catchAll}"
-    },
-    {
-      "DownstreamPathTemplate": "/{catchAll}",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": "13508"
-        }
-      ],
-      "UpstreamPathTemplate": "/payroll-api/{catchAll}"
-    },
-    {
-      "DownstreamPathTemplate": "/{catchAll}",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": "13509"
-        }
-      ],
-      "UpstreamPathTemplate": "/budget-api/{catchAll}"
-    },
-    {
-      "DownstreamPathTemplate": "/{catchAll}",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": "13510"
-        }
-      ],
-      "UpstreamPathTemplate": "/voucher-api/{catchAll}"
-    },
-    {
-      "DownstreamPathTemplate": "/{catchAll}",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": "13512"
-        }
-      ],
-      "UpstreamPathTemplate": "/inventory-api/{catchAll}"
     },
     {
       "DownstreamPathTemplate": "/User/verifyPin",
@@ -245,7 +161,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "16001"
+          "Port": "9082"
         }
       ],
       "UpstreamPathTemplate": "/pin-api/pin",
@@ -253,24 +169,9 @@
         "AuthenticationProviderKey": "MyOwnKey",
         "AllowedScopes": []
       }
-    },
-    {
-      "DownstreamPathTemplate": "/{catchAll}",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": "13511"
-        }
-      ],
-      "UpstreamPathTemplate": "/financialStatemets-api/{catchAll}",
-      "AuthenticationOptions": {
-        "AuthenticationProviderKey": "MyOwnKey",
-        "AllowedScopes": []
-      }
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "https://localhost:16000/"
+    "BaseUrl": "https://localhost:9081/"
   }
 }
