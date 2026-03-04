@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qGxVZY3mkXg=",
+  "dgSpecHash": "eKRbRInHsbk=",
   "success": true,
-  "projectFilePath": "E:\\Aims Soft Projects\\PJP-API\\CMISModuleApi\\CMISModuleApi.csproj",
+  "projectFilePath": "E:\\Aims Soft Projects\\hotel-and-restaurant-API\\CMISModuleApi\\CMISModuleApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hamza\\.nuget\\packages\\dapper\\2.1.24\\dapper.2.1.24.nupkg.sha512",
     "C:\\Users\\hamza\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

@@ -5390,11 +5390,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Aims Soft Projects\\PJP-API\\UMISModuleApi\\UMISModuleApi.csproj",
+      "projectUniqueName": "E:\\Aims Soft Projects\\hotel-and-restaurant-API\\UMISModuleApi\\UMISModuleApi.csproj",
       "projectName": "UMISModuleApi",
-      "projectPath": "E:\\Aims Soft Projects\\PJP-API\\UMISModuleApi\\UMISModuleApi.csproj",
+      "projectPath": "E:\\Aims Soft Projects\\hotel-and-restaurant-API\\UMISModuleApi\\UMISModuleApi.csproj",
       "packagesPath": "C:\\Users\\hamza\\.nuget\\packages\\",
-      "outputPath": "E:\\Aims Soft Projects\\PJP-API\\UMISModuleApi\\obj\\",
+      "outputPath": "E:\\Aims Soft Projects\\hotel-and-restaurant-API\\UMISModuleApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

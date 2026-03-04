@@ -5416,19 +5416,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Hafiz\\.nuget\\packages\\": {}
+    "C:\\Users\\hamza\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Acedmey Project\\JobPortal\\JobPortal-API\\JobPortalApi\\EducationPortalApi.csproj",
-      "projectName": "EducationPortalApi",
-      "projectPath": "D:\\Acedmey Project\\JobPortal\\JobPortal-API\\JobPortalApi\\EducationPortalApi.csproj",
-      "packagesPath": "C:\\Users\\Hafiz\\.nuget\\packages\\",
-      "outputPath": "D:\\Acedmey Project\\JobPortal\\JobPortal-API\\JobPortalApi\\obj\\",
+      "projectUniqueName": "E:\\Aims Soft Projects\\hotel-and-restaurant-API\\JobPortalApi\\JobPortalApi.csproj",
+      "projectName": "JobPortalApi",
+      "projectPath": "E:\\Aims Soft Projects\\hotel-and-restaurant-API\\JobPortalApi\\JobPortalApi.csproj",
+      "packagesPath": "C:\\Users\\hamza\\.nuget\\packages\\",
+      "outputPath": "E:\\Aims Soft Projects\\hotel-and-restaurant-API\\JobPortalApi\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Hafiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hamza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5448,7 +5453,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net7.0": {
@@ -5510,24 +5521,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[7.0.15, 7.0.15]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[7.0.15, 7.0.15]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[7.0.15, 7.0.15]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[7.0.15, 7.0.15]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -5536,7 +5529,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   },

@@ -1275,11 +1275,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Aims Soft Projects\\PJP-API\\CMISModuleApi\\CMISModuleApi.csproj",
+      "projectUniqueName": "E:\\Aims Soft Projects\\hotel-and-restaurant-API\\CMISModuleApi\\CMISModuleApi.csproj",
       "projectName": "CMISModuleApi",
-      "projectPath": "E:\\Aims Soft Projects\\PJP-API\\CMISModuleApi\\CMISModuleApi.csproj",
+      "projectPath": "E:\\Aims Soft Projects\\hotel-and-restaurant-API\\CMISModuleApi\\CMISModuleApi.csproj",
       "packagesPath": "C:\\Users\\hamza\\.nuget\\packages\\",
-      "outputPath": "E:\\Aims Soft Projects\\PJP-API\\CMISModuleApi\\obj\\",
+      "outputPath": "E:\\Aims Soft Projects\\hotel-and-restaurant-API\\CMISModuleApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

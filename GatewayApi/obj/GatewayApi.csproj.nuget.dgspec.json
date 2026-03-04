@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Aims Soft Projects\\PJP-API\\GatewayApi\\GatewayApi.csproj": {}
+    "E:\\Aims Soft Projects\\hotel-and-restaurant-API\\GatewayApi\\GatewayApi.csproj": {}
   },
   "projects": {
-    "E:\\Aims Soft Projects\\PJP-API\\GatewayApi\\GatewayApi.csproj": {
+    "E:\\Aims Soft Projects\\hotel-and-restaurant-API\\GatewayApi\\GatewayApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Aims Soft Projects\\PJP-API\\GatewayApi\\GatewayApi.csproj",
+        "projectUniqueName": "E:\\Aims Soft Projects\\hotel-and-restaurant-API\\GatewayApi\\GatewayApi.csproj",
         "projectName": "GatewayApi",
-        "projectPath": "E:\\Aims Soft Projects\\PJP-API\\GatewayApi\\GatewayApi.csproj",
+        "projectPath": "E:\\Aims Soft Projects\\hotel-and-restaurant-API\\GatewayApi\\GatewayApi.csproj",
         "packagesPath": "C:\\Users\\hamza\\.nuget\\packages\\",
-        "outputPath": "E:\\Aims Soft Projects\\PJP-API\\GatewayApi\\obj\\",
+        "outputPath": "E:\\Aims Soft Projects\\hotel-and-restaurant-API\\GatewayApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

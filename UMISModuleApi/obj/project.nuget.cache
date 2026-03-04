@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IrcLb9RMipY=",
+  "dgSpecHash": "fsD5gZjhRuo=",
   "success": true,
-  "projectFilePath": "E:\\Aims Soft Projects\\PJP-API\\UMISModuleApi\\UMISModuleApi.csproj",
+  "projectFilePath": "E:\\Aims Soft Projects\\hotel-and-restaurant-API\\UMISModuleApi\\UMISModuleApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hamza\\.nuget\\packages\\beiyuan.websystem.backgroundjobs.abstractions\\3.0.5\\beiyuan.websystem.backgroundjobs.abstractions.3.0.5.nupkg.sha512",
     "C:\\Users\\hamza\\.nuget\\packages\\beiyuan.websystem.core\\3.0.5\\beiyuan.websystem.core.3.0.5.nupkg.sha512",
