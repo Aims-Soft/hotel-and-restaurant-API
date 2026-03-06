@@ -122,12 +122,12 @@ public class CompanyController : ControllerBase
         {
             try
             {
-                model.eDocPath = "C:\\inetpub\\wwwroot\\jobPortal\\jobPortal-app\\assets\\Job-images\\CompanyImage";
-                model.eLogoPath = "C:\\inetpub\\wwwroot\\jobPortal\\jobPortal-app\\assets\\Job-images\\CompanyLogo";
-                model.eLicensePath = "C:\\inetpub\\wwwroot\\jobPortal\\jobPortal-app\\assets\\Job-images\\CompanyLicense";
-                model.eBillPath = "C:\\inetpub\\wwwroot\\jobPortal\\jobPortal-app\\assets\\Job-images\\CompanyBill";
-                model.eAgreementPath = "C:\\inetpub\\wwwroot\\jobPortal\\jobPortal-app\\assets\\Job-images\\CompanyAgreement";
-                model.eLetterPath = "C:\\inetpub\\wwwroot\\jobPortal\\jobPortal-app\\assets\\Job-images\\CompanyLetter";
+                model.eDocPath = "C:\\inetpub\\wwwroot\\hotelPortal\\hotel-portal\\assets\\Job-images\\CompanyImage";
+                model.eLogoPath = "C:\\inetpub\\wwwroot\\hotelPortal\\hotel-portal\\assets\\Job-images\\CompanyLogo";
+                model.eLicensePath = "C:\\inetpub\\wwwroot\\hotelPortal\\hotel-portal\\assets\\Job-images\\CompanyLicense";
+                model.eBillPath = "C:\\inetpub\\wwwroot\\hotelPortal\\hotel-portal\\assets\\Job-images\\CompanyBill";
+                model.eAgreementPath = "C:\\inetpub\\wwwroot\\hotelPortal\\hotel-portal\\assets\\Job-images\\CompanyAgreement";
+                model.eLetterPath = "C:\\inetpub\\wwwroot\\hotelPortal\\hotel-portal\\assets\\Job-images\\CompanyLetter";
                 var response = dapperQuery.SPReturn("sp_saveCompanyUser", model, _dbCon);
                 var data = response.Select(row => new { res = row.ToString() });
                 bool result = data.First().res.Contains("Success");

@@ -373,8 +373,8 @@ namespace UMISModuleAPI.Controllers
         {
             try
             {
-                model.eDocPath =    "C:\\inetpub\\wwwroot\\jobPortal\\jobPortal-app\\assets\\Job-images\\Applicant-Profile";
-                model.eResumePath = "C:\\inetpub\\wwwroot\\jobPortal\\jobPortal-app\\assets\\Job-images\\Applicant-resume";
+                model.eDocPath =    "C:\\inetpub\\wwwroot\\hotelPortal\\hotel-portal\\assets\\Job-images\\Applicant-Profile";
+                model.eResumePath = "C:\\inetpub\\wwwroot\\hotelPortal\\hotel-portal\\assets\\Job-images\\Applicant-resume";
                 var response = dapperQuery.SPReturn("sp_saveUser", model, _dbCon);
                 var data = response.Select(row => new { res = row.ToString() });
                 bool result = data.First().res.Contains("Success");
