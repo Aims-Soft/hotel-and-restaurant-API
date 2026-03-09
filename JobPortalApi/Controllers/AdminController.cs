@@ -174,6 +174,22 @@ public class AdminController : ControllerBase
             return BadRequest(e.Message);
         }
     }
+
+    [HttpGet("getCompanyTypeDomain")]
+    public IActionResult getCompanyTypeDomain()
+    {
+        try
+        {
+            cmd = "Select * From view_compantTypeDomain Order By domainTitle ASC";
+            var response = dapperQuery.Qry<CompanyTypeDomain>(cmd, _dbCon);
+            return Ok(response);
+        }
+        catch (Exception e)
+        {
+            return BadRequest(e.Message);
+        }
+    }
+
     [HttpPost("CompanyRequestStatus")]
     public IActionResult CompanyRequestStatus(CompanyRequest model)
     {
