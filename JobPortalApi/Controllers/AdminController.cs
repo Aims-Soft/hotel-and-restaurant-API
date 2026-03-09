@@ -187,4 +187,32 @@ public class AdminController : ControllerBase
             return Ok(e);
         }
     }
+
+    [HttpPost("saveDomain")]
+    public IActionResult saveDomain(DomainCreation model)
+    {
+        try
+        {
+            var response = dapperQuery.SPReturn("sp_domain", model, _dbCon);
+            return Ok(response);
+        }
+        catch (Exception e)
+        {
+            return Ok(e.Message);
+        }
+    }
+
+    [HttpPost("saveCompanyType")]
+    public IActionResult saveCompanyType(CompanyRequest model)
+    {
+        try
+        {
+            var response = dapperQuery.SPReturn("sp_companyType", model, _dbCon);
+            return Ok(response);
+        }
+        catch (Exception e)
+        {
+            return Ok(e.Message);
+        }
+    }
 }
