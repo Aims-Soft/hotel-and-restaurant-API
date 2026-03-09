@@ -203,7 +203,7 @@ public class AdminController : ControllerBase
     }
 
     [HttpPost("saveCompanyType")]
-    public IActionResult saveCompanyType(CompanyRequest model)
+    public IActionResult saveCompanyType(CompanyTypeCreation model)
     {
         try
         {
